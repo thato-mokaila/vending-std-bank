@@ -99,11 +99,11 @@ class DisplayPanel extends Component {
             // create a new array and replace the target object in the array with the updated one
             // update the global state with the new array (that contains a modified target object)
             
-            let updateList = this.props.beverages.map(
-              // perform this function on each element
-              function(){
-                // match and update array element
-              });
+            // let updateList = this.props.beverages.map(
+            //   // perform this function on each element
+            //   function(){
+            //     // match and update array element
+            //   });
 
             this.setState({
               enableButtons: false
